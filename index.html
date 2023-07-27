@@ -44,7 +44,7 @@
 <body>
     <header class="max-w-7xl mx-auto">
         <!--Navbar start -->
-        <nav class="flex px-5 gap-8 justify-between items-center md:bg-primary h-24 md:px-12 mt-1 md:mt-10 rounded-full>
+        <nav class="flex px-5 gap-8 justify-between items-center md:bg-primary h-24 px-12 mt-1 md:mt-10 rounded-full>
            
             <div class="hidden md:block">
                 <ul class="flex gap-8 text-secondary text-xl font-medium">
@@ -141,8 +141,123 @@
 
         </section>
     </header>
-    <main>
-        
+    <main class="max-w-7xl mx-auto">
+        <!--deal part start-->
+        <section class=" mt-6 md:mt-24">
+            <div class="flex flex-col  md:flex-col justify-center lg:flex-row lg:justify-between items-center  gap-5 md:gap-10 px-10 lg:px-0">
+                <div class="max-w-xl">
+                    <h3 class=" text-center lg:text-left text-3xl md:text-5xl font-extrabold text-titleColor">Deal of the day</h3>
+                    <p class=" text-center lg:text-left font-medium text-descripColor mt-6 ">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+
+                </div>
+                <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                    <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+                      <span class="countdown font-mono text-5xl">
+                        <span style="--value:15;"></span>
+                      </span>
+                      days
+                    </div> 
+                    <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+                      <span class="countdown font-mono text-5xl">
+                        <span style="--value:10;"></span>
+                      </span>
+                      hours
+                    </div> 
+                    <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+                      <span class="countdown font-mono text-5xl">
+                        <span style="--value:24;"></span>
+                      </span>
+                      min
+                    </div> 
+                    <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+                      <span class="countdown font-mono text-5xl">
+                        <span style="--value:42;"></span>
+                      </span>
+                      sec
+                    </div>
+                  </div>
+                  
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-12 mt-12 px-10 md:px-20 lg:px-0">
+                <!-- product card -->
+                <div class="min-h-max flex flex-col items-center bg-white rounded-sm  border-2 border-[#e6dede]">
+                    <img src="images/fruit6.png" class="py-5" alt="">
+                    <h3 class="text-2xl font-semibold text-titleColor ">12.90$ - 18.85$</h3>
+                    <hr class="border-[#e6dede] w-28 my-6">
+                    <h4 class="font-medium text-descripColor mb-8">Apples</h4>
+                    <div>
+                        <i class="fa-solid fa-star text-primary"></i>
+                        <i class="fa-solid fa-star text-primary"></i>
+                        <i class="fa-solid fa-star text-primary opacity-40"></i>
+                        <i class="fa-solid fa-star text-primary opacity-40"></i>
+                        <i class="fa-solid fa-star text-primary opacity-40"></i>
+                    </div>
+                    <a href="#" class="text-xl font-semibold text-primary my-5"><!-- The button to open modal -->
+                        <label for="my_modal_7" class="btn text-red-600">Details </label>
+                        
+                        <!-- Put this part before </body> tag -->
+                        <input type="checkbox" id="my_modal_7" class="modal-toggle" />
+                        <div class="modal">
+                          <div class="modal-box">
+                            <h3 class="text-lg font-bold">Hello!</h3>
+                            <p class="py-4">This modal works with a hidden checkbox!</p>
+                          </div>
+                          <label class="modal-backdrop" for="my_modal_7">Close</label>
+                        </div>
+                      </a>
+                   
+                </div>
+                 <!-- product card -->
+                 <div class=" min-h-max flex flex-col items-center bg-white rounded-sm  border-2 border-[#e6dede]">
+                    <img src="images/fruit7.png" class="py-5" alt="">
+                    <h3 class="text-2xl font-semibold text-titleColor ">12.90$ - 18.85$</h3>
+                    <hr class="border-[#e6dede] w-28 my-6">
+                    <h4 class="font-medium text-descripColor mb-8">Orange</h4>
+                    <div>
+                        <i class="fa-solid fa-star text-primary"></i>
+                        <i class="fa-solid fa-star text-primary"></i>
+                        <i class="fa-solid fa-star text-primary opacity-40"></i>
+                        <i class="fa-solid fa-star text-primary opacity-40"></i>
+                        <i class="fa-solid fa-star text-primary opacity-40"></i>
+                    </div>
+                    <a href="#" class="text-xl font-semibold text-primary my-5"></a>
+                </div>
+                <!-- product card -->
+                <div class=" min-h-max flex flex-col items-center bg-white rounded-sm  border-2 border-[#e6dede]">
+                    <img src="images/fruit8.png" class="py-5" alt="">
+                    <h3 class="text-2xl font-semibold text-titleColor ">12.90$ - 18.85$</h3>
+                    <hr class="border-[#e6dede] w-28 my-6">
+                    <h4 class="font-medium text-descripColor mb-8">Red Dragon</h4>
+                    <div>
+                        <i class="fa-solid fa-star text-primary"></i>
+                        <i class="fa-solid fa-star text-primary"></i>
+                        <i class="fa-solid fa-star text-primary opacity-40"></i>
+                        <i class="fa-solid fa-star text-primary opacity-40"></i>
+                        <i class="fa-solid fa-star text-primary opacity-40"></i>
+                    </div>
+                    <a href="#" class="text-xl font-semibold text-primary my-5">Details</a>
+                </div>
+                <!-- product card -->
+                <div class=" min-h-max flex flex-col items-center bg-white rounded-sm  border-2 border-[#e6dede]">
+                    <img src="images/fruit9.png" class="py-5" alt="">
+                    <h3 class="text-2xl font-semibold text-titleColor ">12.90$ - 18.85$</h3>
+                    <hr class="border-[#e6dede] w-28 my-6">
+                    <h4 class="font-medium text-descripColor  mb-8">Banana</h4>
+                    <div>
+                        <i class="fa-solid fa-star text-primary"></i>
+                        <i class="fa-solid fa-star text-primary"></i>
+                        <i class="fa-solid fa-star text-primary opacity-40"></i>
+                        <i class="fa-solid fa-star text-primary opacity-40"></i>
+                        <i class="fa-solid fa-star text-primary opacity-40"></i>
+                    </div>
+                    <a href="#" class="text-xl font-semibold text-primary my-5">Details</a>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <button class="bg-primary text-xl text-secondary mt-6 md:mt-20 px-8 py-5 rounded-md">Shop All</button>
+            </div>
+        </section>
+
     </main>
     
     
